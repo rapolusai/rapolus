@@ -9,7 +9,6 @@ public class Home {
  
 	@RequestMapping(value="/home", method=RequestMethod.GET)
 	public String homePage() {
-		System.err.println("Home Page");
 		return "Home";
 	}
 }
