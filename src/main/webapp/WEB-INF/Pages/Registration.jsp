@@ -4,13 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Home</title>
+<title>Insert title here</title>
 </head>
 <body>
-<h6>Home page</h6>
-
-<a href="registration">Registration Here</a>
-
-
+ <form action="/home"> 
+   <input type ="submit" value="Home">
+ </form>
 </body>
 </html>

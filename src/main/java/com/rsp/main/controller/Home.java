@@ -11,4 +11,14 @@ public class Home {
 	public String homePage() {
 		return "Home";
 	}
+	
+	@RequestMapping(value= "/registration", method=RequestMethod.GET)
+	public String registrationPage() {
+		return "Registration";
+	}
+	
+	@RequestMapping(value="/home", method= RequestMethod.POST)
+	public String homePageForPost() {
+		return "Home";
+	}
 }
