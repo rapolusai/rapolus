@@ -7,7 +7,7 @@
 <title>Home</title>
 </head>
 <body>
-<h6>Home page</h6>
+<h1>Home page</h1>
 
 <a href="registration">Registration Here</a>
 

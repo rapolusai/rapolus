@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
- <form action="/home"> 
+ <form action="/api/home"> 
    <input type ="submit" value="Home">
  </form>
 </body>

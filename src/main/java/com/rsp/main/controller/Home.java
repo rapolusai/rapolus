@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
+@RequestMapping("/api")
 public class Home {
  
 	@RequestMapping(value="/home", method=RequestMethod.GET)
